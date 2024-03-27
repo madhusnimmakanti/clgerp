@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet"  type="text/css" href="../static/css/dashstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+ 
+    <a href="/">logout</a>
+    <div class="container-fluid">
+        <div class="row bg mb-2">
+            <div class="col-md-8 cl1">
+                <img src="../static/images/nlogo.jpg" alt="" style="width: 8%;height: 80px;">
+                <b>NARASIMHA REDDY ENGINEERING COLLEGE</b>
+            </div>
+            <div class="col-md-4 cl2">
+                <button><i>Welcome to Nimmakanti /Madhusagar(21Xo1Ao5H5)</i></button>
+                <button><i class="fa-solid fa-circle-info fa-bounce"></i></button>
+                <button><i class="fa-regular fa-circle-user fa-flip"></i></button>
+            </div>
+        </div>
+        <div class=" row adv mb-2 ">
+            <marquee behavior="" direction=""><b>Welome to BeeS ERP : Click on any of the Modules to Start with your ERP Solutions</b></marquee>
+        </div>
+        <div class="row menu mb-4">
+            <div class="col-md-1 s1" style="display: flex; margin-left: 3px;">
+                <button class="btn " ><a href="/myInfo"><i class="fa-solid fa-building-columns"></i>@Office</a></button>
+            </div>
+            <div class="col-md-1 s1" style="display: flex;">
+                <button class="btn"><i class="fa-solid fa-graduation-cap"></i>Academics</button>
+            </div>
+            <div class="col-md-2 s1" style="display: flex;">
+                <button class="btn"><i class="fa-solid fa-book"></i>Examination Cell</button>
+            </div>
+            <div class="col-md-1 s1"style="display: flex;">
+                <button class="btn"><i class="fa-solid fa-book"></i>Library</button>
+            </div>
+            <div class="col-md-1 s1"style="display: flex;">
+                <button class="btn"><i class="fa-solid fa-users"></i>Placements</button>
+            </div>
+            <div class="col-md-1 s1"style="display: flex;">
+                <button class="btn"><i class="fa-solid fa-gears"></i>Utilities</button>
+            </div>
+            <div class="col-md-4 s2"style="display: flex;">
+                <button class="btn form-control">      <br> </button>
+            </div>
+        </div>
+        {% block content %}
+
+        
+        
+
+
+
+        {% endblock %}
+    </body>
+
+    </html>

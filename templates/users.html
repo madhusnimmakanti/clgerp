@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userslist</title>
+</head>
+<body>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table  style="width: 55%; border: 1px solid black;" class="table table-hover table-bordered table-striped">
+                    <thead style="background:rgb(202, 200, 200)">
+                        <tr>
+                            <th style=" border: 1px solid black;">S.No</th>
+                            <th style=" border: 1px solid black;">Username</th>
+                            <th style=" border: 1px solid black;">Roll</th>
+                            <th style=" border: 1px solid black;">Email</th>
+                            <th style=" border: 1px solid black;">Mobile</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for user in users %}
+                            <tr>
+                                <td style=" border: 1px solid black;">{{ loop.index }}</td>
+                                <td style=" border: 1px solid black;">{{ user[1]}}</td>
+                                <td style=" border: 1px solid black;">{{ user[2]}}</td>
+                                <td style=" border: 1px solid black;">{{ user[3]}}</td>
+                                <td style=" border: 1px solid black;">{{ user[4]}}</td>
+                                <
+                                
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

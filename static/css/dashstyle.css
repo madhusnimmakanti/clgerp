@@ -1,0 +1,103 @@
+.bg{
+    background-color: #036;
+}
+.cl1 b{
+    color: white;
+    font-size: 24px;
+    text-shadow: 5px 5px 5px #000;
+    padding: 5px;
+}
+.cl1 img{
+    border-radius: 50%;
+}
+.cl2 {
+    padding: 10px;
+    padding-bottom: 3px;
+}
+.cl2 button{
+    border-radius: 10px;
+    line-height: 30px;
+    column-gap: 3px;
+    
+}
+.adv{
+    background: rgb(239, 7, 181);
+    text-shadow: 2px 2px 5px #000;
+
+}
+.adv marquee{
+    color: white;
+}
+
+
+
+.menu .s1{
+    margin-right: 1px;
+    background-color: #fc791e;
+    background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0,rgb(255,147,38)),color-stop(1,rgb(217,109,0)));
+    height: 40px;
+    display: block;
+    
+    
+}
+
+.menu .s2{
+    margin-right: 1px;
+    background-color: #fc8835;
+    background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0,rgb(255,147,38)),color-stop(1,rgb(217,109,0)));
+    width: 41%;
+    position: relative;
+}
+.s1 button{
+    background: transparent;
+    color: white;
+    border: 0;
+}
+.interface{
+    text-align: center;
+}
+.A{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.A b{
+    font-size: 40px;
+    color: darkgreen;
+    text-align: center;
+}
+.A p{
+    font-size:medium;
+    font-weight: bold;
+    color: darkgreen;
+    text-align: center;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+.D{
+        background-color: #FF7D33;
+        padding: 8px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        width: 300px;
+        border-radius: 5px;
+}
+.H th{
+    margin-right: 3px;
+}
+.U th{
+    border: 1px solid black;
+}
+.S tr{
+    border: 1px solid black;
+}
+.G td{
+    border: 1px solid black;
+}
